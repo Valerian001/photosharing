@@ -1,0 +1,1 @@
+web: gunicorn photosharing.wsgi --log-file -
