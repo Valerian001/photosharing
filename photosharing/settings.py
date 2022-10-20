@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-vr(ebwt@o#!y!4(h0x4!0z&)v^=!sssnogc(uy)h1&$1pc@br(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://photosharing.up.railway.app']
+ALLOWED_HOSTS = ['*','photosharing.up.railway.app']
 
 
 # Application definition
