@@ -11,6 +11,6 @@ def index(request):
             file = request.FILES['img']
         )
         new_photo.save()
-        return render(request, 'index.html', {'new_url': str('photosharing.up.railway.app'+new_photo.file.url)})
+        return render(request, 'index.html', {'new_url': str('https://photosharing.up.railway.app'+new_photo.file.url)})
     else:
         return render(request, 'index.html')
